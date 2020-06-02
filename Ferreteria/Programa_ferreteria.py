@@ -10,6 +10,7 @@ def clear():
         _ = system('clear')
 
 pasarela_tarjeta = PaymentGateway()
+#Apore de josé modificado
 class calculos:
     def __init__(self):
         self.total_compra = 0
@@ -40,6 +41,7 @@ class calculos:
         print("------------------------------------\n\n")
 calc = calculos()
 
+#Aporte de Nayib modificado
 class metodo_pagos:
     def __init__(self):
         self.diferencia = 0
@@ -155,6 +157,7 @@ class llamada_principal:
                           ["18","Alicate",7.50],
                           ["19","Martillo",6.25]]
 
+    #Impresiones por parte de rubén 
     def factura(self):
         i = 0
         print("     ",self.titulo,"     ")
